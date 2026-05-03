@@ -1,0 +1,1 @@
+export default function CashierPage(){return <section className='p-6'><h1 className='text-2xl font-semibold'>Caixa</h1><p>Abertura, fechamento, sangria e resumo por forma de pagamento.</p></section>;}

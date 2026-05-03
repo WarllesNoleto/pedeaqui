@@ -1,0 +1,1 @@
+export default function PDVPage(){return <section className='p-6'><h1 className='text-2xl font-semibold'>PDV Balcão</h1><p>Busque itens, adicione ao carrinho, aplique desconto e finalize pedido.</p></section>;}
