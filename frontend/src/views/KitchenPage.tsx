@@ -1,0 +1,1 @@
+export default function KitchenPage(){return <section className='p-6'><h1 className='text-2xl font-semibold'>Cozinha em Tempo Real</h1><p>Status: novo, em preparo, pronto e entregue/cancelado.</p></section>;}

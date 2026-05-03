@@ -1,0 +1,1 @@
+import { Body, Controller, Get, Post } from '@nestjs/common';@Controller('cashier') export class CheckoutController{@Post('open') open(@Body() b:any){return {id:Date.now().toString(),status:'open',...b};}@Get('summary') summary(){return {totalSold:0,payments:{dinheiro:0,pix:0,cartao:0}};}}

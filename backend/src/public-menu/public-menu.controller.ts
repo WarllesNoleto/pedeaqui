@@ -1,0 +1,1 @@
+import { Controller, Get, Param } from '@nestjs/common';@Controller('cardapio') export class PublicMenuController{@Get(':slug') menu(@Param('slug') slug:string){return {slug,categories:[],products:[]};}}
